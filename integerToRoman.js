@@ -5,7 +5,7 @@ function intToRoman(input) {
         let romanNumerals = [
             { value: 1000, numeral: "M" },
             { value: 900, numeral: "CM" },
-            { value: 500, numeral: "DM" },
+            { value: 500, numeral: "D" },
             { value: 400, numeral: "CD" },
             { value: 100, numeral: "C" },
             { value: 90, numeral: "XC" },
@@ -31,4 +31,4 @@ function intToRoman(input) {
     }
     return result;
 }
-console.log(intToRoman(50));
+console.log(intToRoman(3749));
